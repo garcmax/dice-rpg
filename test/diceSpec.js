@@ -146,8 +146,8 @@ describe('Error catching', function () {
         done();
     });
 
-     it('should get the error from badly formed input : toto', function (done) {
-        let result = dice.rolled("toto");        
+     it('should get the error from badly formed input : 10d6', function (done) {
+        let result = dice.rolled("10d6");        
         result.should.deepEqual({"error" : "Bad Input"})        
         done();
     });
