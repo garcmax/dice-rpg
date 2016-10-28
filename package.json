@@ -1,6 +1,6 @@
 {
   "name": "dice-rpg",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "throw common rpg dices in any combination",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,14 @@
   ],
   "author": "niwamaxou",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niwamaxou/dice-rpg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niwamaxou/dice-rpg/issues"
+  },
+  "homepage": "https://github.com/niwamaxou/dice-rpg",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.0",
