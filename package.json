@@ -1,6 +1,6 @@
 {
   "name": "dice-rpg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Roll common rpg dices in any combination",
   "main": "index.js",
   "scripts": {
