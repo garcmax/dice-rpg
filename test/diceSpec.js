@@ -4,7 +4,7 @@ const should = require("should");
 const sinon = require("sinon");
 const random = require("random-js");
 
-import * as dice from "../src/dice.js";
+const dice = require("../src/dice.js");
 
 describe('throwing one dice once', function () {
 

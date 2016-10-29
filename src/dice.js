@@ -3,7 +3,9 @@
 const random = require("random-js");
 const engine = random.engines.mt19937().autoSeed();
 
-export function rolled(input) {
+
+
+exports.rolled = function(input) {
     let rolls = input.split(/\s/);
     let results = {};
     let regexp = /^(\d|d)d{0,1}([2468]|10|12|20|100)$/i;
@@ -31,5 +33,5 @@ function extractDices(roll, regexp) {
 
 function rollDices(dices) {
     let roll = random.dice(dices.dice, dices.times);
-    return roll(engine);    
+    return roll(engine);
 }

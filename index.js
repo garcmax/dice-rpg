@@ -1,6 +1,6 @@
 'use strict';
 
-import * as dice from "./src/dice.js"; 
+const dice = require("./src/dice.js");
 
 exports.rolled = function(input) {
     return dice.rolled(input);

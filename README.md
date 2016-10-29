@@ -2,10 +2,10 @@
 
 Roll any combination of common pen&paper dice (d2/4/6/8/10/12/20/100)
 
-###Install
+### Install
 npm install dice-rpg
 
-###Usage
+### Usage
 
 const dicerpg = require("dice-rpg");
 
@@ -19,3 +19,4 @@ The returning object will be like :
   '20': [12,8]
 }
 ```
+If you need to roll more than 9 dices of the same size, for example 15, just use `9d6 6d6`.
