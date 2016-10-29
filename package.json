@@ -1,7 +1,7 @@
 {
   "name": "dice-rpg",
   "version": "1.0.0",
-  "description": "throw common rpg dices in any combination",
+  "description": "Roll common rpg dices in any combination",
   "main": "index.js",
   "scripts": {
     "test": "mocha -w --compilers js:babel-register"
